@@ -16,11 +16,10 @@ return new class extends Migration
         Schema::create('books', function (Blueprint $table) {
             $table->id();
             $table->timestamps();
-            $table->boolean('book_type')->default(false);
-            $table->string('isbn');
+            $table->integer('clasification');
             $table->string('title');
-            $table->string('tags');
-            $table->date('release_date')->default(now());
+            $table->year('release_year');
+            $table->year('added_year')->default(now());
             $table->string('publisher');
             $table->string('author');
             $table->longText('synopsis')->default('deskripsi belum ditulis....');

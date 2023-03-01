@@ -8,21 +8,26 @@
                 alt=""
             />
         </div>
-        <div class="grid w-full lg:w-2/5 p-8 gap-4">
+        <div class="grid h-fit w-full lg:w-3/5 p-8 gap-4">
             <div class="grid gap-2">
-                <p class="text-sm md:text-xl">Penerbit Simbolon</p>
-                <h1 class="font-bold text-2xl md:text-4xl"> 
+                <h1 class="font-extrabold text-2xl md:text-4xl"> 
                     Sebuah Seni untuk bersikap BODOAMAT
                 </h1>
-                {{-- <div class="flex">
-                    <p class="text-xs md:text-base">Harga Mulai</p>
-                    <h5 class="text-indigo-600 text-base md:text-3xl font-bold">
-                        Rp. 355.200.000,00
-                    </h5>
-                </div> --}}
+                <div class="flex w-fit gap-1 font-thin text-sm bg-indigo-700 rounded-sm px-2 py-0 text-stone-50">
+                    <p class="font-thin text-base">813</p>
+                    <p class="font-thin text-base">ter</p>
+                    <p class="font-thin text-base">2018</p>
+                    <p class="font-thin text-base">c.1</p>
+                </div>
+                <hr />
+                <p class="text-sm md:text-base">Penulis : Tere Liye</p>
+                <p class="text-sm md:text-base">Penerbit : Penerbit Simbolon</p>
+                <p class="text-sm md:text-base">Tahun Terbit : 2018</p>
+                <p class="text-sm md:text-base">Number Of Copy : C.4</p>
+
             </div>
             <hr />
-            <div class="grid gap-4">
+            <div class="grid gap-4 h-fit">
                 <div class="grid gap-2">
                     <h4 class="text-sm md:text-xl font-bold">Sinopsis</h4>
                     <p class="text-sm md:text-base">
@@ -39,7 +44,7 @@
             <div class="grid w-full h-fit">
                 <a
                     href="/pinjam"
-                    class="text-center bg-indigo-700 hover:bg-indigo-800 w-full py-2 text-white font-bold rounded-md"
+                    class="text-center bg-indigo-700 hover:bg-indigo-800 w-full py-2 text-white font-bold rounded-md md:max-w-sm"
                     >Pinjam Sekarang</a
                 >
             </div>

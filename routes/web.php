@@ -53,8 +53,25 @@ Route::get('/admin/listbook', function () {
     return view('admin/admBookList'); 
 });
 
+Route::get('/admin/listbook/create', function () {
+    return view('admin/admAddBook');
+});
+
+Route::get('/admin/listbook/edit', function () {
+    return view('admin/admEditBook');
+});
+
+
 Route::get('/admin/userlist', function () {
     return view('admin/admUserList');
+});
+
+Route::get('/admin/userlist/create', function () {
+    return view('admin/admAddUser');
+});
+
+Route::get('/admin/userlist/edit', function () {
+    return view('admin/admEditUser');
 });
 
 Route::get('/admin/confirm', function () {
